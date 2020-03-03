@@ -1,0 +1,23 @@
+{
+  "name": "next-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "cd out && now --public",
+    "now-build": "next build && next export -o dist"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.2.2",
+    "now": "^17.0.4",
+    "nprogress": "^0.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
